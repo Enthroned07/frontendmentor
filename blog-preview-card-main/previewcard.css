@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: goldenrod;
+}
+
+.preview-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 470px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 24%;
+    height: 420px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px;
+}
+
+
+.illustration-size{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.learn-style{
+    background-color: goldenrod;
+    width: 21%;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+    padding-left: 7px;
+    padding-top: 1px;
+    color: black;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial, sans-serif;
+}
+.published-Style{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.html-css-style{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.html-css-style:hover{
+    color: goldenrod;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 280px;
+}
+
+.img-avatar-size{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 25px;
+
+}
+
+.img-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.greghooper{
+    margin-top: 46px;
+    margin-left: 10px;
+}
+
+#pointer {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: none;
+  }
+
+  #pointer.active {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transform: scale(1.5);
+  }
+
+
+
+
+  @media (max-width: 375px) {
+    .preview-container{
+        display: block;
+        width: 80%;
+        margin-left: 6%;
+        margin-top: 100px;
+    }    
+    .illustration-size{
+        margin: 16px;
+        width: 90%;
+    }
+    .published-Style{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .html-css-style{
+        margin-left: 20px;
+    }
+
+    p{
+        margin-top: 20px;
+    }
+
+    .img-avatar-size{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 25px;
+    
+    }
+    
+    .greghooper{
+        margin-top: 36px;
+        margin-left: 10px;
+    }
+    
+}
